@@ -17,4 +17,5 @@ for event in notifier.event_gen():
             file_open = open(file_path, 'rb')
             bot.send_chat_action(DESTINATION, 'upload_document')
             bot.send_document(DESTINATION, file_open)
-
+            file_open.close()
+            os.remove(file_path)
