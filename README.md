@@ -11,7 +11,7 @@
 
 ## About
 
-This docker container checks if a new file is created on a folder and sends it to a person/group/channel using [Telegram Messenger](https://telegram.org).
+This docker container checks if a new file is created on a folder and sends it to a person/group/channel using [Telegram Messenger](https://telegram.org). The original file is deleted after it has been sent.
 
 ## Setup
 
